@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+}
+.side-nav{
+    height: 100vh;
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+}
+.vis-part{
+    background-color: gray;
+    height:100%;
+  
+}
+.nav-links{
+    height: 100%;
+   
+   
+}
+.logo img{
+    width: 50px;
+}
+.item{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.overlay{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    opacity: .7;
+    transition: top 1s;
+    overflow: hidden;
+}
+.item:hover .overlay{
+    top: 0;
+}
+.Search-inp{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+}
+.home-catg .item{
+    width: 80%;
+}
+.contact input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.contact span{
+    display: none;
+}
+.deatils-img img{
+   
+    border-radius: 5%;
+}
+.active{
+    display: block !important;
+}
